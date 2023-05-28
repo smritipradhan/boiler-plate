@@ -1,0 +1,23 @@
+@mixin maxWidth($num) {
+  @media (max-width: #{$num}px) {
+    @content;
+  }
+}
+
+@mixin minWidth($num) {
+  @media (min-width: #{$num}px) {
+    @content;
+  }
+}
+
+@mixin maxHeight($num) {
+  @media (max-height: #{$num}px) {
+    @content;
+  }
+}
+
+@mixin minHeight($num) {
+  @media (min-height: #{$num}px) {
+    @content;
+  }
+}
