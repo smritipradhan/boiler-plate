@@ -36,3 +36,12 @@ function ComponentC() {
 
 export default withUser(ComponentC);
 ```
+
+To use media Quesries
+
+```
+@include maxWidth(1280) {
+  .yourClassName {
+    margin-right: 16px;
+  }
+```
