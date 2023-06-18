@@ -1,0 +1,37 @@
+.projectContainer {
+  padding: 40px 230px;
+
+  .projectHeaderLight {
+    color: #42446e;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 26px;
+    margin-bottom: 20px;
+  }
+  .projectHeaderDark {
+    color: #9b9ba3;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 26px;
+    margin-bottom: 20px;
+  }
+  .thingsBuiltDark {
+    font-weight: 400;
+    font-size: 28px;
+    color: #9b9ba3;
+    line-height: 26px;
+  }
+  .thingsBuiltLight {
+    font-weight: 400;
+    font-size: 28px;
+    color: #42446e;
+    line-height: 26px;
+  }
+  .projectCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100px;
+    row-gap: 50px;
+  }
+}

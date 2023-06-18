@@ -1,0 +1,43 @@
+.landingPageContainer {
+  display: flex;
+  padding: 60px 230px;
+  display: flex;
+  justify-content: space-between;
+
+  .introTextDark {
+    color: white;
+    text-align: left;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: -1px;
+    font-weight: 700;
+  }
+
+  .introTextLight {
+    color: #42446e;
+    text-align: left;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: -1px;
+    font-weight: 700;
+  }
+  .imageContainer {
+    display: flex;
+    align-items: center;
+
+    img {
+      height: 200px;
+      width: 200px;
+    }
+  }
+  .craft {
+    line-height: 50px;
+    font-size: 40px;
+  }
+  .name {
+    background: linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}

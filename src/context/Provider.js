@@ -1,12 +1,20 @@
 import { useState } from "react";
-import { UserContext } from "./mockContexts";
-
+import { UserContext } from "./UserContext";
 const UserProvider = ({ children }) => {
-  const [name] = useState("Smrit Pradhan");
-  const [age, setAge] = useState(1);
-  const happyBirthday = () => setAge(age + 1);
+  const [theme, setTheme] = useState("dark");
+
+  const toggleTheme = () => {
+    console.log("theme", theme);
+    setTheme((prev) => (prev === "dark" ? "light" : "dark"));
+  };
+
   return (
-    <UserContext.Provider value={{ name, age, happyBirthday }}>
+    <UserContext.Provider
+      value={{
+        theme,
+        toggleTheme,
+      }}
+    >
       {children}
     </UserContext.Provider>
   );

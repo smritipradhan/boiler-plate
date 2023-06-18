@@ -1,0 +1,33 @@
+.headerContainer {
+  padding: 17px 230px;
+  display: flex;
+  justify-content: space-between;
+
+  .headerItemContainerDark {
+    display: flex;
+    gap: 30px;
+    color: black;
+    width: 100%;
+    align-items: center;
+    .headerItem {
+      cursor: pointer;
+      font-weight: 500;
+      font-size: 17px;
+      line-height: 26px;
+    }
+  }
+  .headerItemContainerLight {
+    color: white;
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    align-items: center;
+
+    .headerItem {
+      cursor: pointer;
+      font-weight: 500;
+      font-size: 17px;
+      line-height: 26px;
+    }
+  }
+}
